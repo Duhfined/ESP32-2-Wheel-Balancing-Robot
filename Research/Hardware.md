@@ -23,12 +23,10 @@ This section of the Research folder aims to focus on the hardware capabilities o
 
 ## Component Spesifications:
 
-1. FREENOVE ESP32-S3 WROOM
-2. GEARED DC Motor 3-6V 1:48 ratio
-3. L298N Motor Drive Controller Board
-4. MPU6050
-5. Wheel diameter: 65mm
-Wheel thickness: 26mm
-6. Cardboard
-
 * **ESP32:**
+* **GEARED DC Motor 3-6V 1:48 ratio:**
+* **L298N Motor Drive Controller Board:**
+* **MPU6050:**
+* **Wheel:**
+* **LM2596S:**
+
