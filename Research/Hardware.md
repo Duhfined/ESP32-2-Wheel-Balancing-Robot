@@ -55,7 +55,7 @@ This section of the Research folder aims to focus on the hardware capabilities o
 | **VCC** | 3.3V |
 | **GND** | GND |
 | **SDA** | GPIO 21 |
-| **SCL** | GPIO 22 |
+| **SCL** | GPIO 20 |
 
 ### LM2596S :
 
