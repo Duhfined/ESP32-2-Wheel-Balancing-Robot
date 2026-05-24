@@ -12,7 +12,7 @@ Serial.println("Calibration done!\n");
 ```
 Given my values came back with +-1 degree within 0 while lying flat, sensor values and calibration seemed normal. The only downside to this, was that the values took time to reach +- 1 within 0- that is not acceptable with a robot that needs accurate information straight away.
 
-To combat this, we can use the built in Offset Commands:
+To combat this, we can use the built in Offset Commands to find these values:
 
 ```
  Serial.print("mpu.setGyroOffsets("); //Calculates Offsets For Gyro
