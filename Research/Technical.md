@@ -10,4 +10,5 @@ To step up properly the MPU6050, we need it to communicate with I2C first (Pin 8
 mpu.calcOffsets();
 Serial.println("Calibration done!\n");
 ```
+Given my values came back with +-1 degree within 0 while lying flat, sensor values and calibration seemed normal.
 
