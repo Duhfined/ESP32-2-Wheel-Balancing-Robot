@@ -10,5 +10,19 @@ To step up properly the MPU6050, we need it to communicate with I2C first (Pin 8
 mpu.calcOffsets();
 Serial.println("Calibration done!\n");
 ```
-Given my values came back with +-1 degree within 0 while lying flat, sensor values and calibration seemed normal.
+Given my values came back with +-1 degree within 0 while lying flat, sensor values and calibration seemed normal. The only downside to this, was that the values took time to reach +- 1 within 0- that is not acceptable with a robot that needs accurate information straight away.
+
+To combat this, we can use the built in Offset Commands:
+
+```
+ Serial.print("mpu.setGyroOffsets("); //Calculates Offsets For Gyro
+  Serial.print(mpu.getGyroXoffset()); Serial.print(", ");
+  Serial.print(mpu.getGyroYoffset()); Serial.print(", ");
+  Serial.print(mpu.getGyroZoffset()); Serial.println(");"); // Prints outcomes
+
+  Serial.print("mpu.setAccOffsets("); // Calclulates Offtsets For Accel
+  Serial.print(mpu.getAccXoffset()); Serial.print(", ");
+  Serial.print(mpu.getAccYoffset()); Serial.print(", ");
+  Serial.print(mpu.getAccZoffset()); Serial.println(");"); // Prints outcomes
+```
 
