@@ -17,9 +17,9 @@ This section of the Research folder aims to focus on the hardware capabilities o
 ## Tools Required:
 
 1. Exacto-Knife (1)
-2. Hot GLue Gun (1)
-3. PC (1)
-4. Soldering Iron/Kit
+3. Hot GLue Gun (1)
+4. PC (1)
+5. Soldering Iron/Kit
 
 
 ## Component Spesifications:
