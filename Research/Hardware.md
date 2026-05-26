@@ -38,13 +38,13 @@ This section of the Research folder aims to focus on the hardware capabilities o
 ### TB6612FNG:
 | TB6612FNG Pin | ESP32 Pin | Function |
 | :--- | :--- | :--- |
-| **STBY** | GPIO 27 | Standby (Set HIGH to run) |
-| **AIN1** | GPIO 14 | Motor A Direction 1 |
-| **AIN2** | GPIO 15 | Motor A Direction 2 (Replaces GPIO 12) |
-| **PWMA** | GPIO 13 | Motor A Speed |
-| **BIN1** | GPIO 25 | Motor B Direction 1 |
-| **BIN2** | GPIO 26 | Motor B Direction 2 |
-| **PWMB** | GPIO 32 | Motor B Speed |
+| **STBY** | GPIO 4 | Standby (Set HIGH to run) |
+| **AIN1** | GPIO 5 | Motor A Direction 1 |
+| **AIN2** | GPIO 6 | Motor A Direction 2 (Replaces GPIO 12) |
+| **PWMA** | GPIO 7| Motor A Speed |
+| **BIN1** | GPIO 10 | Motor B Direction 1 |
+| **BIN2** | GPIO 11 | Motor B Direction 2 |
+| **PWMB** | GPIO 12 | Motor B Speed |
 | **VCC**  | 3.3V    | Logic Power |
 | **GND**  | GND     | Common Ground |
 | **VM**   | Battery + | Motor Power |
