@@ -66,6 +66,13 @@ This section of the Research folder aims to focus on the hardware capabilities o
 | **OUT+** | ESP32 5V |
 | **OUT-** | ESP32 GND|
 
+### Batteries :
+
+|Battery Pins | Connection Pin |
+| :--- | :--- |
+| **+** | |
+| **-** | |
+
 
 
 
