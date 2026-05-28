@@ -25,4 +25,4 @@ To combat this, we can use the built in Offset Commands to find these values:
   Serial.print(mpu.getAccYoffset()); Serial.print(", ");
   Serial.print(mpu.getAccZoffset()); Serial.println(");"); // Prints outcomes
 ```
-
+After finding these values, we need to paste it right after starting the mpu to let the system know these offsets
