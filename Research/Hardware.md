@@ -48,6 +48,7 @@ This section of the Research folder aims to focus on the hardware capabilities o
 | **VCC**  | 3.3V    | Logic Power |
 | **GND**  | GND     | Common Ground |
 | **VM**   | Battery + | Motor Power |
+| **GND**  | GND     | Common Ground |
 
 ### MPU-6050:
 | MPU-6050 Pin | ESP32 Pin | 
